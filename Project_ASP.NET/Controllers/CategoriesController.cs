@@ -44,9 +44,28 @@ namespace Project_ASP.NET.Controllers
             }
         };
 
+
         public IActionResult Index() //Це будь-який web результат - View - сторінка,файл, PDF, Excel
         {
             return View(categories);
         }
+
+
+        [HttpGet]
+        public IActionResult Create() //Це будь-який web результат - View - сторінка,файл, PDF, Excel
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult Create(CategoryCreateViewModel model) //Це будь-який web результат - View - сторінка,файл, PDF, Excel
+        {
+           
+            return View(model);
+        }
+
+
+
     }
 }

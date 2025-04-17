@@ -1,4 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Project_ASP.NET.Data;
+using Project_ASP.NET.DataBase;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+builder.Services.AddDbContext<ASP_ProjectDbContext>(opt =>
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("MyConnection")));
 
 // Add services to the container.
 //У нас будуть View - це такі сторінки, де можна писати на C# Index.cshtml

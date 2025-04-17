@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\",
+  "WorkspaceRootPath": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\project_asp.net\\project_asp.net\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\project_asp.net\\project_asp.net\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\project_asp.net\\project_asp.net\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\database\\asp_projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\database\\asp_projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\database\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\database\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\project_asp.net\\project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\models\\category\\categorycreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\models\\category\\categorycreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +55,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_MyLayout.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
-              "RelativeToolTip": "Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T17:09:58.04Z",
+              "Title": "20250417143441_Add_tbl_Categories.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Migrations\\20250417143441_Add_tbl_Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:34:41.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Project_ASP.NET\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T16:46:32.431Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Program.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:29:26.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs*",
-              "RelativeToolTip": "Project_ASP.NET\\Controllers\\CategoriesController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CategoryEntity.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\DataBase\\Entities\\CategoryEntity.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\DataBase\\Entities\\CategoryEntity.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\DataBase\\Entities\\CategoryEntity.cs",
+              "RelativeToolTip": "Project_ASP.NET\\DataBase\\Entities\\CategoryEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T16:10:51.798Z",
+              "WhenOpened": "2025-04-17T14:24:21.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Program.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Title": "ASP_ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\DataBase\\ASP_ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\DataBase\\ASP_ProjectDbContext.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\DataBase\\ASP_ProjectDbContext.cs",
+              "RelativeToolTip": "Project_ASP.NET\\DataBase\\ASP_ProjectDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:55:44.542Z",
+              "WhenOpened": "2025-04-17T14:20:51.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\appsettings.json",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\appsettings.json",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\appsettings.json",
+              "RelativeToolTip": "Project_ASP.NET\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T14:08:33.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryCreateViewModel.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\Category\\CategoryCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Models\\Category\\CategoryCreateViewModel.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\Category\\CategoryCreateViewModel.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Models\\Category\\CategoryCreateViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:27:22.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAzwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:15:24.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T17:00:58.422Z",
               "EditorCaption": ""
             }
           ]

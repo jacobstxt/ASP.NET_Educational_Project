@@ -1,0 +1,7 @@
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.exe
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.dll
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.deps.json
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.runtimeconfig.json
+C:\IT\Web\ASP.NET\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.pdb
