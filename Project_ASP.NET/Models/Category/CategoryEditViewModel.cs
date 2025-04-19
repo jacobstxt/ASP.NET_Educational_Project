@@ -14,6 +14,6 @@ namespace Project_ASP.NET.Models.Category
         public string? ViewImage { get; set; } = string.Empty;
         [Display(Name = "Choose image")]
         [DataType(DataType.ImageUrl)]
-        public IFormFile ImageFile { get; set; } = null!;
+        public IFormFile? ImageFile { get; set; }
     }
 }
