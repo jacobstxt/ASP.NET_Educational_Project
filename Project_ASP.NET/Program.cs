@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Project_ASP.NET.Data;
 using Project_ASP.NET.DataBase;
+using Project_ASP.NET.Interfaces;
+using Project_ASP.NET.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,7 @@ builder.Services.AddDbContext<ProjectDbContext>(opt =>
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.AddScoped<IImageService, ImageService>();
 
 // Add services to the container.
 //У нас будуть View - це такі сторінки, де можна писати на C# Index.cshtml
@@ -45,6 +49,15 @@ app.MapControllerRoute(
     pattern: "{controller=Categories}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+var dir = builder.Configuration["ImagesDir"];
+string path = Path.Combine(Directory.GetCurrentDirectory(), dir);
+Directory.CreateDirectory(path);
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(path),
+    RequestPath = $"/{dir}"
+});
 
 await app.SeedData();
 

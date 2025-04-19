@@ -298,3 +298,4 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\Projec
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\ref\Project_ASP.NET.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\JsonData\Categories.json
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\AutoMapper.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\SixLabors.ImageSharp.dll
