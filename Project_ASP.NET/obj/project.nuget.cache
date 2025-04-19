@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "at676p1nop0=",
+  "dgSpecHash": "YOBbepVp27M=",
   "success": true,
   "projectFilePath": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Project_ASP.NET.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

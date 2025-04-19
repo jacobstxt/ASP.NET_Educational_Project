@@ -296,3 +296,5 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\static
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\Project_.29CA3A28.Up2Date
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\Project_ASP.NET.genruntimeconfig.cache
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\ref\Project_ASP.NET.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\JsonData\Categories.json
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\AutoMapper.dll

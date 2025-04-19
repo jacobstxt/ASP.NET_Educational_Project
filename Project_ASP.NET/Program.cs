@@ -6,8 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-builder.Services.AddDbContext<ASP_ProjectDbContext>(opt =>
+builder.Services.AddDbContext<ProjectDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("MyConnection")));
+
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 // Add services to the container.
 //У нас будуть View - це такі сторінки, де можна писати на C# Index.cshtml
@@ -41,5 +45,7 @@ app.MapControllerRoute(
     pattern: "{controller=Categories}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+
+await app.SeedData();
 
 app.Run();//Запуск

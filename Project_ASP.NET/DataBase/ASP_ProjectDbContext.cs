@@ -7,5 +7,5 @@ namespace Project_ASP.NET.DataBase;
 public class ASP_ProjectDbContext: DbContext
 {
     public ASP_ProjectDbContext(DbContextOptions<ASP_ProjectDbContext> opt) :  base(opt) {}
-    public DbSet<CategoryEntity> Category { get; set; }
+    public DbSet<CategoryEntity> Categories { get; set; }
 }
