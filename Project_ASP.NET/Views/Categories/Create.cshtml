@@ -2,25 +2,27 @@
 
 <div style="margin-top:120px" class="container">
     <form asp-action="Create" enctype="multipart/form-data" class="p-4 shadow rounded bg-primary-subtle" style="max-width: 700px; margin: auto;">
-        <h4 class="mb-4">Створення категорії</h4>
+        <h4 class="mb-4 text-center">Створення категорії</h4>
 
         <!-- Назва категорії -->
         <div class="mb-3">
-            <label asp-for="Name" class="form-label">Назва категорії</label>
+            <label asp-for="Name" class="form-label fw-semibold text-dark">Назва категорії</label>
             <input asp-for="Name" type="text" class="form-control"  placeholder="Введіть назву категорії" required>
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
 
         <!-- Опис -->
         <div class="mb-3">
-            <label asp-for="Description" class="form-label">Опис</label>
+            <label asp-for="Description" class="form-label fw-semibold text-dark">Опис</label>
             <textarea asp-for="Description" class="form-control"  rows="4" placeholder="Введіть опис категорії"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
         <!-- Зображення (URL) -->
         <div class="mb-3">
-            <label asp-for="ImageFile" class="form-label">URL зображення</label>
+            <label asp-for="ImageFile" class="form-label fw-semibold text-dark">URL зображення</label>
             <input asp-for="ImageFile" type="file" class="form-control" accept="image/*">
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
         </div>
 
         <!-- Кнопка -->

@@ -1,0 +1,71 @@
+﻿@model Project_ASP.NET.Models.Category.CategoryEditViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="width:800px;margin-top:60px" class="container">
+    <div class="bg-primary-subtle p-5 rounded shadow">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h3 class="mb-4 text-center text-dark">Редагувати категорію</h3>
+                <form asp-action="Edit" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+
+                    <input asp-for="ViewImage" type="hidden" />
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label fw-semibold text-dark">Назва</label>
+                        <input asp-for="Name" class="form-control" placeholder="Введіть назву категорії" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label fw-semibold text-dark">Опис</label>
+                        <textarea asp-for="Description" class="form-control" rows="4" placeholder="Введіть опис"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img src="@Model.ViewImage" class="img-fluid rounded shadow-sm" id="imagePreview" />
+                        </div>
+                        <div class="col-md-8">
+                            <label asp-for="ImageFile" class="form-label fw-semibold text-dark">Зображення</label>
+                            <input asp-for="ImageFile" type="file" class="form-control" accept="image/*">
+                        </div>
+                    </div>
+
+                    @if (string.IsNullOrEmpty(Model.ViewImage))
+                    {
+                        <div class="mb-3">
+                            <label asp-for="ViewImage" class="form-label fw-semibold text-dark">URL зображення</label>
+                            <input asp-for="ViewImage" class="form-control" placeholder="URL до зображення">
+                        </div>
+                    }
+
+                    <div class="d-flex justify-content-start">
+                        <button style="margin-right:10px" type="submit" class="btn btn-primary px-4">Редагувати категорію</button>
+                        <a asp-action="Index" class="btn btn-danger">Назад до списку</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+    <script>
+        document.getElementById("ImageFile").addEventListener("change", (e)=> {
+            const file = e.target.files[0];
+            if(file){
+                document.getElementById("imagePreview").src = URL.createObjectURL(file);
+            }
+        })
+    </script>
+
+}

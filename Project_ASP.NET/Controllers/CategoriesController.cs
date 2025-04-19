@@ -10,20 +10,17 @@ namespace Project_ASP.NET.Controllers
 {
     public class CategoriesController(ProjectDbContext context,IMapper mapper,IImageService imageService) : Controller
     {
-
         public IActionResult Index() //Це будь-який web результат - View - сторінка,файл, PDF, Excel
         {
             var model = mapper.ProjectTo<CategoryItemViewModel>(context.Categories).ToList();
             return View(model);
         }
 
-
         [HttpGet]
         public IActionResult Create() //Це будь-який web результат - View - сторінка,файл, PDF, Excel
         {
             return View();
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Create(CategoryCreateViewModel model) //Це будь-який web результат - View - сторінка,файл, PDF, Excel
@@ -44,7 +41,6 @@ namespace Project_ASP.NET.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
@@ -59,6 +55,58 @@ namespace Project_ASP.NET.Controllers
             }
 
             context.Categories.Remove(category);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var category = await context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            ViewBag.ImageName = category.ImageUrl;
+
+
+            var model = mapper.Map<CategoryEditViewModel>(category);
+            return View(model);
+        }
+
+
+        [HttpPost] //Тепер він працює методом GET - це щоб побачити форму
+        public async Task<IActionResult> Edit(CategoryEditViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var existing = await context.Categories.FirstOrDefaultAsync(x => x.Id == model.Id);
+            if (existing == null)
+            {
+                return NotFound();
+            }
+
+            var duplicate = await context.Categories
+                .FirstOrDefaultAsync(x => x.Name == model.Name && x.Id != model.Id);
+            if (duplicate != null)
+            {
+                ModelState.AddModelError("Name", "Another category with this name already exists");
+                return View(model);
+            }
+
+            if (model.ImageFile != null)
+            {
+                await imageService.DeleteImageAsync(existing.ImageUrl);
+                existing.ImageUrl = await imageService.SaveImageAsync(model.ImageFile);
+            }
+
+            existing = mapper.Map(model, existing);
+
+
             await context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));

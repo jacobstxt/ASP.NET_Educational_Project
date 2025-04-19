@@ -13,6 +13,11 @@ namespace Project_ASP.NET.Mapper
             CreateMap<CategoryCreateViewModel, CategoryEntity>()
             .ForMember(x => x.ImageUrl, opt => opt.Ignore());
 
+            CreateMap<CategoryEntity, CategoryEditViewModel>()
+            .ForMember(x => x.ViewImage, opt => opt.MapFrom(x => string.IsNullOrEmpty(x.ImageUrl) ? "/Picture/default.png" : $"/images/400_{x.ImageUrl}"))
+            .ForMember(x => x.ImageFile, opt => opt.Ignore())
+            .ReverseMap();
+
         }
     }
 }
