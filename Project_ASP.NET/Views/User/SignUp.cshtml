@@ -1,0 +1,68 @@
+﻿@model Project_ASP.NET.Models.User.UserSignUpViewModel
+
+
+<div class="container">
+    <form asp-action="SignUp" class="p-4 shadow rounded bg-light" style="max-width: 700px; margin: auto; margin-top: 30px;" method="post" enctype="multipart/form-data">
+
+        <h2 class="text-center mb-4">Реєстрація</h2>
+
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Name"></label>
+
+            <input class="form-control" asp-for="Name" placeholder="Ваше ім'я" />
+            <div class="text-danger" asp-validation-for="Name"></div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Surname"></label>
+            <input class="form-control" asp-for="Surname" placeholder="Ваше прізвище" />
+            <div class="text-danger" asp-validation-for="Surname"></div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Email"></label>
+            <input class="form-control" asp-for="Email" placeholder="Ваша електронна пошта" />
+            <div class="text-danger" asp-validation-for="Email"></div>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Phone"></label>
+            <input class="form-control" asp-for="Phone" placeholder="Ваш номер телефону" />
+            <div class="text-danger" asp-validation-for="Phone"></div>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Password"></label>
+            <input class="form-control" asp-for="Password" type="password" placeholder="Пароль" />
+            <div class="text-danger" asp-validation-for="Password"></div>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="ConfirmPassword"></label>
+            <input class="form-control" asp-for="ConfirmPassword" type="password" placeholder="Підтвердження паролю" />
+            <div class="text-danger" asp-validation-for="ConfirmPassword"></div>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold text-dark" asp-for="Avatar">Фото (необов'язково):</label>
+            <input class="form-control" asp-for="Avatar" type="file" />
+            <div class="text-danger" asp-validation-for="Avatar"></div>
+        </div>
+
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg w-100">Зареєструватися</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
