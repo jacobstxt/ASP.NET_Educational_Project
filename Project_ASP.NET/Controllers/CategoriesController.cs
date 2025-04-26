@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project_ASP.NET.Data;
-using Project_ASP.NET.DataBase.Entities;
+using Project_ASP.NET.Data.Entities;
 using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Models.Category;
 

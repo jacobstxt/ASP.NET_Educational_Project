@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Project_ASP.NET.Data.Entities
 {
     [Table("tbl_categories")]
-    public class CategoryEntities
+    public class CategoryEntity
     {
         [Key]
         public int Id { get; set; }

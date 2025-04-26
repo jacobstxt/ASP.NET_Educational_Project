@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Project_ASP.NET.DataBase.Entities;
+using Project_ASP.NET.Data.Entities;
 
 namespace Project_ASP.NET.Data
 {
@@ -7,5 +7,6 @@ namespace Project_ASP.NET.Data
     {
         public ProjectDbContext(DbContextOptions<ProjectDbContext> opt) : base(opt) { }
         public DbSet<CategoryEntity> Categories { get; set; }
+        public DbSet<UserEntity> User { get; set; }
     }
 }

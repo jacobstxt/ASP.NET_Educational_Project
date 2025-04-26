@@ -1,7 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Project_ASP.NET.Data;
-using Project_ASP.NET.DataBase;
+using Project_ASP.NET.Data.Entities;
 using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Services;
 
@@ -16,6 +17,7 @@ builder.Services.AddDbContext<ProjectDbContext>(opt =>
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<IImageService, ImageService>();
+builder.Services.AddScoped<IPasswordHasher<UserEntity>, PasswordHasher<UserEntity>>();
 
 // Add services to the container.
 //У нас будуть View - це такі сторінки, де можна писати на C# Index.cshtml

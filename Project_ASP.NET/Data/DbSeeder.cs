@@ -2,7 +2,6 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Project_ASP.NET.Data.Entities;
-using Project_ASP.NET.DataBase.Entities;
 using Project_ASP.NET.Models.Seeder;
 
 namespace Project_ASP.NET.Data

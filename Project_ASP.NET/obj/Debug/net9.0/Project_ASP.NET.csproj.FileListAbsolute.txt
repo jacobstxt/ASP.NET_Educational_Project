@@ -418,3 +418,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\ru\Mic
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\Microsoft.AspNet.Identity.Core.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
