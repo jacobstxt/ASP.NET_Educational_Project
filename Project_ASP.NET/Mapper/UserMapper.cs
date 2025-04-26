@@ -8,7 +8,8 @@ namespace Project_ASP.NET.Mapper
     {
         public UserMapper() {
             CreateMap<UserSignUpViewModel, UserEntity>()
-               .ForMember(dest => dest.Password, opt => opt.Ignore());
+               .ForMember(dest => dest.Password, opt => opt.Ignore())
+               .ForMember(dest => dest.AvatarUrl, opt => opt.MapFrom(src => src.ViewAvatar ?? "/Picture/default.png"));
         }
     }
 }

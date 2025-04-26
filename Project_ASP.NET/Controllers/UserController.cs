@@ -5,13 +5,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project_ASP.NET.Data;
 using Project_ASP.NET.Data.Entities;
+using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Models.Category;
 using Project_ASP.NET.Models.User;
 
 
 namespace Project_ASP.NET.Controllers
 {
-    public class UserController(Data.ProjectDbContext context,IMapper mapper,IPasswordHasher<UserEntity> passwordHasher):Controller
+    public class UserController(Data.ProjectDbContext context,IMapper mapper,IPasswordHasher<UserEntity> passwordHasher,IImageService imageService):Controller
     {
         public IActionResult Index() 
         {
@@ -46,10 +47,16 @@ namespace Project_ASP.NET.Controllers
             var userEntity = mapper.Map<UserEntity>(model);
             userEntity.Password = hashedPassword;
 
+
+            if (model.Avatar != null)
+            {
+                userEntity.AvatarUrl = await imageService.SaveImageAsync(model.Avatar);
+            }
+
             await context.User.AddAsync(userEntity);
             await context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", "Categories");
         }
 
     }

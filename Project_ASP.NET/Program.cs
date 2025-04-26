@@ -48,7 +48,7 @@ app.MapStaticAssets();//Використання статичних файлів , тобто у нас буде працюва
 //може бути null
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Categories}/{action=Index}/{id?}")
+    pattern: "{controller=User}/{action=SignUp}/{id?}")
     .WithStaticAssets();
 
 var dir = builder.Configuration["ImagesDir"];
