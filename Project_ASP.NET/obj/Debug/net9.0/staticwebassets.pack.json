@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Project_ASP.NET.gbx141t23o.bundle.scp.css"
     },
     {
+      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "PackagePath": "staticwebassets\\Picture\\default.png"
+    },
+    {
       "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

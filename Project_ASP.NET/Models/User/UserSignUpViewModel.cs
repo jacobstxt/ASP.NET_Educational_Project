@@ -27,6 +27,7 @@ namespace Project_ASP.NET.Models.User
         [Compare("Password", ErrorMessage = "Паролі не співпадають")]
         public string ConfirmPassword { get; set; } = null!;
 
+        public string? ViewAvatar { get; set; } = string.Empty;
         public IFormFile? Avatar { get; set; }
 
     }

@@ -2,22 +2,24 @@
 
 
 <div class="container">
-    <form asp-action="SignUp" class="p-4 shadow rounded bg-light" style="max-width: 700px; margin: auto; margin-top: 30px;" method="post" enctype="multipart/form-data">
+    <form asp-action="SignUp" class="p-4 shadow rounded bg-primary-subtle" style="max-width: 700px; margin: auto; margin-top: 60px;" method="post" enctype="multipart/form-data">
 
         <h2 class="text-center mb-4">Реєстрація</h2>
 
-
-        <div class="mb-3">
+        <div class="row">
+        <div class="col mb-3">
             <label class="form-label fw-semibold text-dark" asp-for="Name"></label>
 
             <input class="form-control" asp-for="Name" placeholder="Ваше ім'я" />
             <div class="text-danger" asp-validation-for="Name"></div>
         </div>
 
-        <div class="mb-3">
+        <div class="col mb-3">
             <label class="form-label fw-semibold text-dark" asp-for="Surname"></label>
             <input class="form-control" asp-for="Surname" placeholder="Ваше прізвище" />
             <div class="text-danger" asp-validation-for="Surname"></div>
+        </div>
+
         </div>
 
         <div class="mb-3">
@@ -33,36 +35,105 @@
             <div class="text-danger" asp-validation-for="Phone"></div>
         </div>
 
+        <div class="row">
 
-        <div class="mb-3">
+        <div class="col mb-3">
             <label class="form-label fw-semibold text-dark" asp-for="Password"></label>
             <input class="form-control" asp-for="Password" type="password" placeholder="Пароль" />
             <div class="text-danger" asp-validation-for="Password"></div>
         </div>
 
 
-        <div class="mb-3">
+        <div class="col mb-3">
             <label class="form-label fw-semibold text-dark" asp-for="ConfirmPassword"></label>
             <input class="form-control" asp-for="ConfirmPassword" type="password" placeholder="Підтвердження паролю" />
             <div class="text-danger" asp-validation-for="ConfirmPassword"></div>
         </div>
 
+        </div>
 
-        <div class="mb-3">
-            <label class="form-label fw-semibold text-dark" asp-for="Avatar">Фото (необов'язково):</label>
-            <input class="form-control" asp-for="Avatar" type="file" />
-            <div class="text-danger" asp-validation-for="Avatar"></div>
+
+
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <img src="@(Model?.ViewAvatar ?? "/Picture/default.png")" class="img-fluid rounded shadow-sm" id="avatarPreview" />
+            </div>
+            <div class="col-md-8">
+                <label asp-for="Avatar" class="form-label fw-semibold text-dark">Зображення</label>
+                <input asp-for="Avatar" type="file" class="form-control" accept="image/*">
+            </div>
         </div>
 
 
         <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg w-100">Зареєструватися</button>
+            <button type="submit" class="btn btn-primary btn-lg w-70">Зареєструватися</button>
         </div>
     </form>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ваше фото</h1>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="previewImage" src="#" alt="Preview" class="img-fluid" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="cancelChangesBtn">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveChangesBtn">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+
+
+
+
 
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
+    <script>
+        const avatarInput = document.getElementById("Avatar");
+        const modalElement = document.getElementById("exampleModal");
+        const viewAvatar = document.getElementById("avatarPreview");
+        const saveChangesBtn = document.getElementById("saveChangesBtn");
+        const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+        const cancelChangesBtn = document.getElementById("cancelChangesBtn");
+
+
+        document.getElementById("Avatar").addEventListener("change", (e)=> {
+            const file = e.target.files[0];
+            if(file){
+                const reader = new FileReader();
+                reader.onload = function(event){
+                    document.getElementById("previewImage").src = event.target.result;
+                    modal.show();           
+                };
+
+                saveChangesBtn.addEventListener("click", () => {
+                modal.hide();
+                document.getElementById("avatarPreview").src = URL.createObjectURL(file);
+        });
+                reader.readAsDataURL(file);
+            }
+        })
+
+
+
+            cancelChangesBtn.addEventListener("click", () => {
+            avatarInput.value = ""; 
+            previewImage.src = "#";
+            viewAvatar.src = "/Picture/default.png";
+        });
+
+    </script>
 }

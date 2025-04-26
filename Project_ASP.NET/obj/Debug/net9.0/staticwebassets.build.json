@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ml81/JReRoy8XUy17/sYt6mhS5YwsuBDWXKgMUuy1t4=",
+  "Hash": "Amvl/6lJ/EMYtDrov0QuI7jGMThfO4AaDiEsiv2OsEc=",
   "Source": "Project_ASP.NET",
   "BasePath": "_content/Project_ASP.NET",
   "Mode": "Default",
@@ -2724,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "Picture/default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4mrsl8txu",
+      "Integrity": "unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Picture\\default.png"
     }
   ],
   "Endpoints": [
@@ -21282,6 +21303,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "Picture/default.a4mrsl8txu.png",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4mrsl8txu"
+        },
+        {
+          "Name": "label",
+          "Value": "Picture/default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE="
+        }
+      ]
+    },
+    {
+      "Route": "Picture/default.png",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE="
         }
       ]
     },
