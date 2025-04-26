@@ -1,28 +1,56 @@
-﻿using AutoMapper;
-using Microsoft.AspNet.Identity;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Project_ASP.NET.Data;
-using Project_ASP.NET.Data.Entities;
-using Project_ASP.NET.Interfaces;
-using Project_ASP.NET.Models.Category;
+using Project_ASP.NET.Data.Entities.Identity;
 using Project_ASP.NET.Models.User;
+
 
 
 namespace Project_ASP.NET.Controllers
 {
-    public class UserController(Data.ProjectDbContext context, IMapper mapper, IImageService imageService) : Controller
+    public class UserController(UserManager<UserEntity> userManager,
+        SignInManager<UserEntity> signInManager) : Controller
     {
-        public IActionResult Index()
+
+        [HttpGet]
+        public IActionResult Login()
         {
-            var model = mapper.ProjectTo<CategoryItemViewModel>(context.Categories).ToList();
-            return View(model);
+            return View();
         }
 
         public IActionResult SignUp()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Login(UserLoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await userManager.FindByEmailAsync(model.Email);
+            if (user != null)
+            {
+                var res = await signInManager.PasswordSignInAsync(user, model.Password, false, false);
+                if (res.Succeeded)
+                {
+                    await signInManager.SignInAsync(user, isPersistent: false);
+                    return Redirect("/");
+                }
+
+            }
+            ModelState.AddModelError("", "Дані вказано не вірно!");
+            return View(model);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return Redirect("/");
         }
 
         //[HttpPost]

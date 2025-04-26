@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\data\\entities\\identity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\data\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\data\\entities\\identity\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\data\\entities\\identity\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\data\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\models\\user\\usersignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\models\\user\\usersignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\mapper\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\mapper\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\models\\user\\userloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\models\\user\\userloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,78 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Data\\DbSeeder.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\DbSeeder.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Data\\DbSeeder.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwF0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:19:24.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryEntity.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\CategoryEntity.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Data\\Entities\\CategoryEntity.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\CategoryEntity.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Data\\Entities\\CategoryEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:19:23.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoleEntity.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Data\\Entities\\Identity\\RoleEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:19:17.678Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Categories\\Index.cshtml*",
+              "RelativeToolTip": "Project_ASP.NET\\Views\\Categories\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T19:29:32.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserRoleEntity.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Data\\Entities\\Identity\\UserRoleEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:19:16.065Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T19:04:11.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Data\\Entities\\Identity\\UserEntity.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Data\\Entities\\Identity\\UserEntity.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Data\\Entities\\Identity\\UserEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T17:19:13.969Z",
+              "WhenOpened": "2025-04-26T19:00:59.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserLoginViewModel.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserLoginViewModel.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Models\\User\\UserLoginViewModel.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserLoginViewModel.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Models\\User\\UserLoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:59:22.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_MyLayout.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Views\\Shared\\_MyLayout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T18:55:19.387Z",
               "EditorCaption": ""
             },
             {
@@ -140,84 +109,18 @@
               "RelativeDocumentMoniker": "Project_ASP.NET\\Program.cs",
               "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
               "RelativeToolTip": "Project_ASP.NET\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:18:49.217Z",
+              "WhenOpened": "2025-04-26T18:52:55.411Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:07:56.094Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:03:57.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserSignUpViewModel.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T14:00:01.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "RelativeToolTip": "Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T13:59:49.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryMapper.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Mapper\\CategoryMapper.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Mapper\\CategoryMapper.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Mapper\\CategoryMapper.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Mapper\\CategoryMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T13:49:34.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Mapper\\UserMapper.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Mapper\\UserMapper.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Mapper\\UserMapper.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Mapper\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T13:49:33.448Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }
