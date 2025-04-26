@@ -12,9 +12,9 @@ using Project_ASP.NET.Models.User;
 
 namespace Project_ASP.NET.Controllers
 {
-    public class UserController(Data.ProjectDbContext context,IMapper mapper,IPasswordHasher<UserEntity> passwordHasher,IImageService imageService):Controller
+    public class UserController(Data.ProjectDbContext context, IMapper mapper, IImageService imageService) : Controller
     {
-        public IActionResult Index() 
+        public IActionResult Index()
         {
             var model = mapper.ProjectTo<CategoryItemViewModel>(context.Categories).ToList();
             return View(model);
@@ -25,39 +25,39 @@ namespace Project_ASP.NET.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> SignUp(UserSignUpViewModel model) //Це будь-який web результат - View - сторінка,файл, PDF, Excel
-        {
-            var existingUser = await context.User
-              .AnyAsync(x => x.Email == model.Email || x.Phone == model.Phone);
+        //[HttpPost]
+        //public async Task<IActionResult> SignUp(UserSignUpViewModel model) //Це будь-який web результат - View - сторінка,файл, PDF, Excel
+        //{
+        //    var existingUser = await context.User
+        //      .AnyAsync(x => x.Email == model.Email || x.Phone == model.Phone);
 
-            if (existingUser)
-            {
-                ModelState.AddModelError("", "Користувач з таким Email або Phone вже існує!");
-                return View(model);
-            }
+        //    if (existingUser)
+        //    {
+        //        ModelState.AddModelError("", "Користувач з таким Email або Phone вже існує!");
+        //        return View(model);
+        //    }
 
-            if (model.Password != model.ConfirmPassword)
-            {
-                ModelState.AddModelError("ConfirmPassword", "Паролі не співпадають!");
-                return View(model);
-            }
+        //    if (model.Password != model.ConfirmPassword)
+        //    {
+        //        ModelState.AddModelError("ConfirmPassword", "Паролі не співпадають!");
+        //        return View(model);
+        //    }
 
-            var hashedPassword = passwordHasher.HashPassword(null, model.Password);
-            var userEntity = mapper.Map<UserEntity>(model);
-            userEntity.Password = hashedPassword;
+        //    var hashedPassword = passwordHasher.HashPassword(null, model.Password);
+        //    var userEntity = mapper.Map<UserEntity>(model);
+        //    userEntity.Password = hashedPassword;
 
 
-            if (model.Avatar != null)
-            {
-                userEntity.AvatarUrl = await imageService.SaveImageAsync(model.Avatar);
-            }
+        //    if (model.Avatar != null)
+        //    {
+        //        userEntity.AvatarUrl = await imageService.SaveImageAsync(model.Avatar);
+        //    }
 
-            await context.User.AddAsync(userEntity);
-            await context.SaveChangesAsync();
+        //    await context.User.AddAsync(userEntity);
+        //    await context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Categories");
-        }
+        //    return RedirectToAction("Index", "Categories");
+        //}
 
     }
 }

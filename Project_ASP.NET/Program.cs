@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Project_ASP.NET.Data;
 using Project_ASP.NET.Data.Entities;
+using Project_ASP.NET.Data.Entities.Identity;
 using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Services;
 
@@ -12,6 +13,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ProjectDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("MyConnection")));
+
+
+
+builder.Services.AddIdentity<UserEntity, RoleEntity>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 1;
+})
+    .AddEntityFrameworkStores<ProjectDbContext>()
+    .AddDefaultTokenProviders();
 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -48,7 +63,7 @@ app.MapStaticAssets();//Використання статичних файлів , тобто у нас буде працюва
 //може бути null
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=User}/{action=SignUp}/{id?}")
+    pattern: "{controller=Categories}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 var dir = builder.Configuration["ImagesDir"];
