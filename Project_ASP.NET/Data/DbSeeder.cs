@@ -93,8 +93,7 @@ namespace Project_ASP.NET.Data
                     UserName = email,
                     Email = email,
                     Name = "Марко",
-                    Surname = "Онутрій",
-                    AvatarUrl = "/Picture/default.png",
+                    Surname = "Онутрій"
                 };
 
                 var result = await userManager.CreateAsync(user, "123456");

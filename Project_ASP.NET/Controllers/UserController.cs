@@ -1,7 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Project_ASP.NET.Data.Entities.Identity;
+using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Models.User;
 
 
@@ -9,7 +10,7 @@ using Project_ASP.NET.Models.User;
 namespace Project_ASP.NET.Controllers
 {
     public class UserController(UserManager<UserEntity> userManager,
-        SignInManager<UserEntity> signInManager) : Controller
+        SignInManager<UserEntity> signInManager, IImageService imageService, IMapper mapper) : Controller
     {
 
         [HttpGet]
@@ -53,39 +54,35 @@ namespace Project_ASP.NET.Controllers
             return Redirect("/");
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> SignUp(UserSignUpViewModel model) //Це будь-який web результат - View - сторінка,файл, PDF, Excel
-        //{
-        //    var existingUser = await context.User
-        //      .AnyAsync(x => x.Email == model.Email || x.Phone == model.Phone);
+        [HttpPost]
+        public async Task<IActionResult> SignUp(UserSignUpViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
 
-        //    if (existingUser)
-        //    {
-        //        ModelState.AddModelError("", "Користувач з таким Email або Phone вже існує!");
-        //        return View(model);
-        //    }
-
-        //    if (model.Password != model.ConfirmPassword)
-        //    {
-        //        ModelState.AddModelError("ConfirmPassword", "Паролі не співпадають!");
-        //        return View(model);
-        //    }
-
-        //    var hashedPassword = passwordHasher.HashPassword(null, model.Password);
-        //    var userEntity = mapper.Map<UserEntity>(model);
-        //    userEntity.Password = hashedPassword;
+            var user = mapper.Map<UserEntity>(model);
+            user.AvatarUrl = await imageService.SaveImageAsync(model.Avatar) ?? null;
 
 
-        //    if (model.Avatar != null)
-        //    {
-        //        userEntity.AvatarUrl = await imageService.SaveImageAsync(model.Avatar);
-        //    }
+            var res = await userManager.CreateAsync(user,model.Password);
+            if (res.Succeeded)
+            {
+                await signInManager.SignInAsync(user, isPersistent: false);
+                return Redirect("/");
+            }
+           
 
-        //    await context.User.AddAsync(userEntity);
-        //    await context.SaveChangesAsync();
+           foreach(var error in res.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
 
-        //    return RedirectToAction("Index", "Categories");
-        //}
+
+           return View(model);
+          
+        }
 
     }
 }

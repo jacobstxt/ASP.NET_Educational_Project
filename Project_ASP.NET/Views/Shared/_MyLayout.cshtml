@@ -34,14 +34,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">         
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0"> 
+                        <li>
+                           <a class="nav-link" asp-action="Create" asp-controller="Categories">Додати категорію</a>
+                        </li>
+
                     </ul>
                     @if (User.Identity.IsAuthenticated)
                     {
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" asp-action="Profile" asp-controller="Account">@User.Identity.Name</a>
-                            </li>
+
+                          @await Component.InvokeAsync("UserLink")
+
                             <li class="nav-item">
                                 @using (Html.BeginForm("Logout", "User", FormMethod.Post))
                                 {
@@ -72,7 +76,7 @@
 
    
 
-    <div class="container-fluid">
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

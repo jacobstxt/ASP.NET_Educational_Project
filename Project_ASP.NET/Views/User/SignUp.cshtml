@@ -9,7 +9,6 @@
         <div class="row">
         <div class="col mb-3">
             <label class="form-label fw-semibold text-dark" asp-for="Name"></label>
-
             <input class="form-control" asp-for="Name" placeholder="Ваше ім'я" />
             <div class="text-danger" asp-validation-for="Name"></div>
         </div>
@@ -54,7 +53,6 @@
 
 
 
-
         <div class="row mb-3">
             <div class="col-md-4">
                 <img src="@(Model?.ViewAvatar ?? "/Picture/default.png")" class="img-fluid rounded shadow-sm" id="avatarPreview" />
@@ -68,7 +66,6 @@
 
         <div class="d-flex justify-content-start" style="margin-top:30px;">
             <button type="submit" style="width:180px" class="btn btn-primary btn-lg">Зареєструватися</button>
-            <a href="/User/LogIn" class="btn btn-outline-primary btn-lg" style="margin-left:20px; width:180px;">Увійти</a>
         </div>
     </form>
 
