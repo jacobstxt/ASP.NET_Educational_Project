@@ -19,13 +19,34 @@ namespace Project_ASP.NET.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult SignUp()
         {
             return View();
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Profile()
+        {
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return RedirectToAction("Login");
 
-        [HttpPost]
+            var model = new UserProfileViewModel
+            {
+                Name = user.Name,
+                Surname = user.Surname,
+                AvatarUrl = user.AvatarUrl,
+                Email = user.Email
+            };
+
+            return View(model);
+        }
+
+
+
+
+            [HttpPost]
         public async Task<IActionResult> Login(UserLoginViewModel model)
         {
             if (!ModelState.IsValid)

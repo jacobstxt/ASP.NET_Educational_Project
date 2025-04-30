@@ -1,5 +1,8 @@
 ﻿@model Project_ASP.NET.Models.User.UserSignUpViewModel
 
+@{
+    ViewData["Title"] = "Реєстрація";
+}
 
 <div class="container">
     <form asp-action="SignUp" class="p-4 shadow-lg rounded bg-light" style="max-width: 700px; margin: auto; margin-top: 45px;" method="post" enctype="multipart/form-data">
@@ -25,13 +28,6 @@
             <label class="form-label fw-semibold text-dark" asp-for="Email"></label>
             <input class="form-control" asp-for="Email" placeholder="Ваша електронна пошта" />
             <div class="text-danger" asp-validation-for="Email"></div>
-        </div>
-
-
-        <div class="mb-3">
-            <label class="form-label fw-semibold text-dark" asp-for="Phone"></label>
-            <input class="form-control" asp-for="Phone" placeholder="Ваш номер телефону" />
-            <div class="text-danger" asp-validation-for="Phone"></div>
         </div>
 
         <div class="row">
@@ -99,6 +95,9 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 
+  @*   <script src="/js/cropper.min.js"></script>
+    <script src="/js/cropImageOnForm.js"></script> *@
+
     <script>
         const avatarInput = document.getElementById("Avatar");
         const modalElement = document.getElementById("exampleModal");
@@ -132,6 +131,5 @@
             previewImage.src = "#";
             viewAvatar.src = "/Picture/default.png";
         });
-
-    </script>
+            </script>
 }

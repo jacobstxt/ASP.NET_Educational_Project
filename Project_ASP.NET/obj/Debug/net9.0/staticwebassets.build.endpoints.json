@@ -383,6 +383,304 @@
       ]
     },
     {
+      "Route": "css/cropper.min.css",
+      "AssetFile": "css/cropper.min.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css",
+      "AssetFile": "css/cropper.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css.gz",
+      "AssetFile": "css/cropper.min.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css",
+      "AssetFile": "css/cropper.min.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css",
+      "AssetFile": "css/cropper.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css.gz",
+      "AssetFile": "css/cropper.min.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y="
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [
@@ -975,6 +1273,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js",
+      "AssetFile": "js/cropImageOnForm.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001589825119"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js",
+      "AssetFile": "js/cropImageOnForm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js.gz",
+      "AssetFile": "js/cropImageOnForm.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js",
+      "AssetFile": "js/cropImageOnForm.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001589825119"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js",
+      "AssetFile": "js/cropImageOnForm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js.gz",
+      "AssetFile": "js/cropImageOnForm.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js",
+      "AssetFile": "js/cropper.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081599347"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js",
+      "AssetFile": "js/cropper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js.gz",
+      "AssetFile": "js/cropper.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY="
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js",
+      "AssetFile": "js/cropper.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081599347"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js",
+      "AssetFile": "js/cropper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js.gz",
+      "AssetFile": "js/cropper.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY="
         }
       ]
     },

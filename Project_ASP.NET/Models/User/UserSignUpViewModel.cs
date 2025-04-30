@@ -14,9 +14,6 @@ namespace Project_ASP.NET.Models.User
         [EmailAddress]
         public string Email { get; set; } = null!;
 
-        [Phone(ErrorMessage = "Некоректний формат телефону")]
-        public string Phone { get; set; } = null!;
-
         [Required]
         [DataType(DataType.Password)]
         [MinLength(6, ErrorMessage = "Пароль має містити щонайменше 6 символів")]

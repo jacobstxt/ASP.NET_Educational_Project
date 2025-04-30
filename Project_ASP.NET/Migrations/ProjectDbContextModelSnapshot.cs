@@ -156,7 +156,7 @@ namespace Project_ASP.NET.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("tbl_categories");
+                    b.ToTable("tbl_categories", (string)null);
                 });
 
             modelBuilder.Entity("Project_ASP.NET.Data.Entities.Identity.RoleEntity", b =>

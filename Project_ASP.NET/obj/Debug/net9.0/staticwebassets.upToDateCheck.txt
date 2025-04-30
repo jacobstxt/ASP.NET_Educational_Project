@@ -33,6 +33,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\d
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\js\cropper.min.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery\dist\jquery.min.map
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -45,6 +46,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\d
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\css\cropper.min.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\css\site.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -54,14 +56,18 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery\dist
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\js\cropImageOnForm.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery\LICENSE.txt
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\css\cropper.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\cropImageOnForm.js
+wwwroot\js\cropper.min.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
