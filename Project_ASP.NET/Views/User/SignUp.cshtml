@@ -73,7 +73,9 @@
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Ваше фото</h1>
                 </div>
                 <div class="modal-body text-center">
-                    <img id="previewImage" src="#" alt="Preview" class="img-fluid" />
+                    <div style="max-height: 400px; overflow: hidden;">
+                        <img id="previewImage" src="#" alt="Preview" style="max-width: 100%;" />
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="cancelChangesBtn">Close</button>
@@ -95,34 +97,63 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 
-  @*   <script src="/js/cropper.min.js"></script>
-    <script src="/js/cropImageOnForm.js"></script> *@
+    <script src="/js/cropper.min.js"></script>
 
     <script>
+
         const avatarInput = document.getElementById("Avatar");
         const modalElement = document.getElementById("exampleModal");
         const viewAvatar = document.getElementById("avatarPreview");
         const saveChangesBtn = document.getElementById("saveChangesBtn");
         const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
         const cancelChangesBtn = document.getElementById("cancelChangesBtn");
+        let cropper;
 
 
-        document.getElementById("Avatar").addEventListener("change", (e)=> {
+        avatarInput.addEventListener("change", (e)=> {
             const file = e.target.files[0];
             if(file){
                 const reader = new FileReader();
                 reader.onload = function(event){
-                    document.getElementById("previewImage").src = event.target.result;
-                    modal.show();           
-                };
+                    const image = document.getElementById("previewImage");
+                    image.src = event.target.result;
+                    modal.show();
 
-                saveChangesBtn.addEventListener("click", () => {
-                modal.hide();
-                document.getElementById("avatarPreview").src = URL.createObjectURL(file);
-        });
+                      modalElement.addEventListener("shown.bs.modal", () => {
+                        cropper = new Cropper(image, {
+                            aspectRatio: 1,
+                            viewMode: 1,
+                            autoCropArea: 1,
+                            responsive: true
+                      });
+                      }, { once: true });
+
+                };
                 reader.readAsDataURL(file);
             }
-        })
+        });
+
+           saveChangesBtn.addEventListener("click", ()=>{
+               const canvas = cropper.getCroppedCanvas({
+                   width:400,
+                   height:400
+               });
+
+
+            canvas.toBlob((blob) => {
+            const newFile = new File([blob], "avatar.png", { type: "image/png" });
+
+            const dataTransfer = new DataTransfer();
+            dataTransfer.items.add(newFile);
+            avatarInput.files = dataTransfer.files;
+
+            viewAvatar.src = URL.createObjectURL(blob);
+        });
+
+        modal.hide();
+        cropper.destroy();
+        });
+
 
 
 
@@ -130,6 +161,9 @@
             avatarInput.value = ""; 
             previewImage.src = "#";
             viewAvatar.src = "/Picture/default.png";
+            if(cropper)
+            cropper.destroy();
         });
-            </script>
+
+       </script>
 }

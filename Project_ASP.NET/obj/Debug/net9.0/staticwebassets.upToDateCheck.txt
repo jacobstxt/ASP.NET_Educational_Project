@@ -56,7 +56,6 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery\dist
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\js\cropImageOnForm.js
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\jquery\LICENSE.txt
@@ -66,7 +65,6 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\wwwroot\lib\bootstrap\d
 wwwroot\css\cropper.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\cropImageOnForm.js
 wwwroot\js\cropper.min.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

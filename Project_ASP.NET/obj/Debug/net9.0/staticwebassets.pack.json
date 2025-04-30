@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
-      "PackagePath": "staticwebassets\\js\\cropImageOnForm.js"
-    },
-    {
       "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
       "PackagePath": "staticwebassets\\js\\cropper.min.js"
     },
