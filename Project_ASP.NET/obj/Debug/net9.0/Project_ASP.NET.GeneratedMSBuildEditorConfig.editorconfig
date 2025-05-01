@@ -260,6 +260,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVWlcVHlwb2dyYXBoeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/IT/Web/ASP.NET/MyCode/Project_ASP.NET/Project_ASP.NET/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/IT/Web/ASP.NET/MyCode/Project_ASP.NET/Project_ASP.NET/Areas/Admin/Views/_Partials/_Macros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1BhcnRpYWxzXF9NYWNyb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
