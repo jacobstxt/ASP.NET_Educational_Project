@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sKDjdca1JU8fJAa5rSR1o7aFRhtKIVYgtY5Vf/KB6EU=",
+  "Hash": "ijGP1ev63JvxWRfcwtrVu0A/lkgGG/dwVNG9ggxZ0k4=",
   "Source": "Project_ASP.NET",
   "BasePath": "_content/Project_ASP.NET",
   "Mode": "Default",
@@ -771,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\ljwpgsrtgy-ewpqejnooc.gz",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropper.min#[.{fingerprint=ewpqejnooc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qwexbebpw0",
+      "Integrity": "upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js"
     },
     {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\lqi0rpawnd-rzd6atqjts.gz",
@@ -1760,6 +1781,27 @@
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\ljwpgsrtgy-ewpqejnooc.br",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropper.min#[.{fingerprint=ewpqejnooc}]?.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "g3qz09mk5y",
+      "Integrity": "3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js"
+    },
+    {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\lqi0rpawnd-rzd6atqjts.br",
       "SourceId": "Project_ASP.NET",
       "SourceType": "Discovered",
@@ -2012,6 +2054,27 @@
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qj2co37r46-d4ce8bp7wm.br",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "css/cropper.min#[.{fingerprint=d4ce8bp7wm}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "ipb5cyjpt3",
+      "Integrity": "enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css"
+    },
+    {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qpnsv228sz-b9sayid5wm.br",
       "SourceId": "Project_ASP.NET",
       "SourceType": "Discovered",
@@ -2222,6 +2285,27 @@
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\w59qkipfg9-6458m1pvr1.br",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropImageOnForm#[.{fingerprint=6458m1pvr1}]?.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "li5e8oivci",
+      "Integrity": "k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js"
+    },
+    {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\wnwcpqs7qj-ft3s53vfgj.br",
       "SourceId": "Project_ASP.NET",
       "SourceType": "Discovered",
@@ -2367,6 +2451,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qj2co37r46-d4ce8bp7wm.gz",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "css/cropper.min#[.{fingerprint=d4ce8bp7wm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2ixqy6iin6",
+      "Integrity": "5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css"
     },
     {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qpnsv228sz-b9sayid5wm.gz",
@@ -2579,6 +2684,27 @@
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\w59qkipfg9-6458m1pvr1.gz",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropImageOnForm#[.{fingerprint=6458m1pvr1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2gak4ybeu0",
+      "Integrity": "HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js"
+    },
+    {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\wnwcpqs7qj-ft3s53vfgj.gz",
       "SourceId": "Project_ASP.NET",
       "SourceType": "Discovered",
@@ -2747,6 +2873,27 @@
       "OriginalItemSpec": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Project_ASP.NET.bundle.scp.css"
     },
     {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "css/cropper.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d4ce8bp7wm",
+      "Integrity": "I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cropper.min.css"
+    },
+    {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\site.css",
       "SourceId": "Project_ASP.NET",
       "SourceType": "Discovered",
@@ -2787,6 +2934,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropImageOnForm#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6458m1pvr1",
+      "Integrity": "5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cropImageOnForm.js"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "js/cropper.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewpqejnooc",
+      "Integrity": "YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cropper.min.js"
     },
     {
       "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\site.js",
@@ -4068,9 +4257,544 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "SourceId": "Project_ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\",
+      "BasePath": "_content/Project_ASP.NET",
+      "RelativePath": "Picture/default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4mrsl8txu",
+      "Integrity": "unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Picture\\default.png"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/cropper.min.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qj2co37r46-d4ce8bp7wm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000934579439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qj2co37r46-d4ce8bp7wm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qj2co37r46-d4ce8bp7wm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.css.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qj2co37r46-d4ce8bp7wm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qj2co37r46-d4ce8bp7wm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000934579439"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qj2co37r46-d4ce8bp7wm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qj2co37r46-d4ce8bp7wm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-enGjTjO5DiSa1ogGjO2YOLnftLe0RUWEh5Wm1EZ/LXk="
+        }
+      ]
+    },
+    {
+      "Route": "css/cropper.min.d4ce8bp7wm.css.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\qj2co37r46-d4ce8bp7wm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:52:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4ce8bp7wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cropper.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5vkWfoSugg/NEYZ9mg1O4HsoLJnKAF7MxIloCISSc7Y="
+        }
+      ]
+    },
     {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\qpnsv228sz-b9sayid5wm.br",
@@ -5096,6 +5820,1034 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\w59qkipfg9-6458m1pvr1.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001976284585"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\w59qkipfg9-6458m1pvr1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001589825119"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\w59qkipfg9-6458m1pvr1.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.6458m1pvr1.js.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\w59qkipfg9-6458m1pvr1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6458m1pvr1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropImageOnForm.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\w59qkipfg9-6458m1pvr1.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001976284585"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\w59qkipfg9-6458m1pvr1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001589825119"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pWFRa2MFpEW7/4/HV9LenHw6c1KDUnHHlG83HTR8iI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\w59qkipfg9-6458m1pvr1.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6TMeUoRXeLa53qrVXKIVsRQx0Ph4ZDhTOnxvgvOK9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropImageOnForm.js.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\w59qkipfg9-6458m1pvr1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:51:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HhJW8GXJC3Srly4yqPE+wRH1KKqTLAZZzJlEXUV+/u0="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\ljwpgsrtgy-ewpqejnooc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081599347"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\ljwpgsrtgy-ewpqejnooc.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000092678406"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10789"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\ljwpgsrtgy-ewpqejnooc.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.ewpqejnooc.js.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\ljwpgsrtgy-ewpqejnooc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewpqejnooc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cropper.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\ljwpgsrtgy-ewpqejnooc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081599347"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\ljwpgsrtgy-ewpqejnooc.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000092678406"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10789"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YpCj+lgbF8z0aSzz7GF6dK5l3ojZFAxy1JKum0dwfvs="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js.br",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\publish\\ljwpgsrtgy-ewpqejnooc.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3JIe7AfDpTYuLR3DMLngmlMR0x4y2MY0dCZ3VYefEi8="
+        }
+      ]
+    },
+    {
+      "Route": "js/cropper.min.js.gz",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\obj\\Release\\net9.0\\compressed\\ljwpgsrtgy-ewpqejnooc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 12:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-upxQRRQyr64iNmMll3wi+K7vD5sN29cbshwYkZylCjY="
         }
       ]
     },
@@ -36018,6 +37770,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "Picture/default.a4mrsl8txu.png",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4mrsl8txu"
+        },
+        {
+          "Name": "label",
+          "Value": "Picture/default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE="
+        }
+      ]
+    },
+    {
+      "Route": "Picture/default.png",
+      "AssetFile": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 17:19:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-unhve/rhzAtYekG0mm4opRjAXZdKvNnQovqb0o4kKrE="
         }
       ]
     },

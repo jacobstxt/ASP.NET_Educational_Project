@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\Project_ASP.NET.gbx141t23o.bundle.scp.css"
     },
     {
+      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\Picture\\default.png",
+      "PackagePath": "staticwebassets\\Picture\\default.png"
+    },
+    {
+      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\cropper.min.css",
+      "PackagePath": "staticwebassets\\css\\cropper.min.css"
+    },
+    {
       "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropImageOnForm.js",
+      "PackagePath": "staticwebassets\\js\\cropImageOnForm.js"
+    },
+    {
+      "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\cropper.min.js",
+      "PackagePath": "staticwebassets\\js\\cropper.min.js"
     },
     {
       "Id": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\wwwroot\\js\\site.js",

@@ -17,7 +17,8 @@ namespace Project_ASP.NET.ViewComponents
             if(userName != null)
             {
                 var user =  userManager.FindByEmailAsync(userName).Result;
-                model = mapper.Map<UserLinkViewModel>(user);
+                model = mapper.Map<UserLinkViewModel>(user)
+                    ;
             }
 
             return View(model);

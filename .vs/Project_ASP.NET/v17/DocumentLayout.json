@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\models\\user\\usersignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\models\\user\\usersignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\models\\user\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\models\\user\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\layoutexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\layoutexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\iconscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\iconscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\formscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\formscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\formlayoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\formlayoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\extendeduicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\extendeduicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\dashboardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\dashboardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\auth\\forgotpasswordbasic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\auth\\forgotpasswordbasic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\auth\\loginbasic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\auth\\loginbasic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +94,236 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserProfileViewModel.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Models\\User\\UserProfileViewModel.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserProfileViewModel.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Models\\User\\UserProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T13:17:07.674Z"
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:40:06.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA1wGkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Models\\ErrorViewModel.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Models\\ErrorViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T13:14:38.413Z",
+              "WhenOpened": "2025-05-01T16:38:57.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginBasic.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\LoginBasic.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\LoginBasic.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\LoginBasic.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\LoginBasic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:17:46.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ForgotPasswordBasic.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\ForgotPasswordBasic.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\ForgotPasswordBasic.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\ForgotPasswordBasic.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Auth\\ForgotPasswordBasic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:15:18.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UiController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UiController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UiController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UiController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UiController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:14:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TablesController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\TablesController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\TablesController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\TablesController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\TablesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:57.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\PagesController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\PagesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:35.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LayoutExamplesController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\LayoutExamplesController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\LayoutExamplesController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\LayoutExamplesController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\LayoutExamplesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:31.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IconsController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\IconsController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\IconsController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\IconsController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\IconsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:27.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:21.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormsController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\FormsController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\FormsController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\FormsController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\FormsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormLayoutsController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\FormLayoutsController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\FormLayoutsController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\FormLayoutsController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\FormLayoutsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:11.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExtendedUiController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\ExtendedUiController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\ExtendedUiController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\ExtendedUiController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\ExtendedUiController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:13:06.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardsController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\DashboardsController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\DashboardsController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\DashboardsController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\DashboardsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:12:55.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\CardsController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\CardsController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\CardsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:12:50.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Views\\User\\SignUp.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Views\\User\\SignUp.cshtml*",
-              "RelativeToolTip": "Project_ASP.NET\\Views\\User\\SignUp.cshtml*",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T12:36:48.852Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Program.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Program.cs*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:09:07.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserSignUpViewModel.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Models\\User\\UserSignUpViewModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAA2AAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T16:05:37.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:12:03.379Z",
+              "WhenOpened": "2025-05-01T15:58:34.705Z",
               "EditorCaption": ""
             }
           ]
