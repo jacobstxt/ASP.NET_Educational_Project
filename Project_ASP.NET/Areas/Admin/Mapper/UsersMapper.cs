@@ -9,6 +9,8 @@ namespace Project_ASP.NET.Areas.Admin.Mapper
         public UsersMapper() {
             CreateMap<UserEntity, UserItemViewModel>()
               .ForMember(x => x.Image, opt => opt.MapFrom(x => x.AvatarUrl))
+              .ForMember(x => x.FirstName, opt => opt.MapFrom(x => x.Name))
+              .ForMember(x => x.LastName, opt => opt.MapFrom(x => x.Surname))
               .ReverseMap();
         
         }

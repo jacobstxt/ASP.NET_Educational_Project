@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\models\\users\\useritemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\models\\users\\useritemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\mapper\\usersmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\areas\\admin\\mapper\\usersmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|solutionrelative:project_asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B4EB589-87AB-4590-9671-049CFF1413E1}|Project_ASP.NET\\Project_ASP.NET.csproj|c:\\it\\web\\asp.net\\mycode\\project_asp.net\\project_asp.net\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,90 +39,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T17:41:44.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T17:31:07.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Program.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Program.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:26:45.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:19:37.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UsersMapper.cs",
               "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Mapper\\UsersMapper.cs",
               "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Mapper\\UsersMapper.cs",
               "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Mapper\\UsersMapper.cs",
               "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Mapper\\UsersMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:17:26.957Z",
+              "WhenOpened": "2025-05-03T14:51:14.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserItemViewModel.cs",
-              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Models\\Users\\UserItemViewModel.cs",
-              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Models\\Users\\UserItemViewModel.cs",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Models\\Users\\UserItemViewModel.cs",
-              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Models\\Users\\UserItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:12:30.443Z",
+              "WhenOpened": "2025-05-03T14:48:57.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml*",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Users\\Index.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T14:47:39.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_VerticalMenu.cshtml",
               "DocumentMoniker": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
               "RelativeDocumentMoniker": "Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
-              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml*",
-              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\IT\\Web\\ASP.NET\\MyCode\\Project_ASP.NET\\Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
+              "RelativeToolTip": "Project_ASP.NET\\Areas\\Admin\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T16:53:32.173Z",
               "EditorCaption": ""
