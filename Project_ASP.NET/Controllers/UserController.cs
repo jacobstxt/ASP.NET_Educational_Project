@@ -25,6 +25,11 @@ namespace Project_ASP.NET.Controllers
             return View();
         }
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         [HttpGet]
         public async Task<IActionResult> Profile()
         {
@@ -59,7 +64,7 @@ namespace Project_ASP.NET.Controllers
                 if (res.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
-                    return Redirect("/");
+                    return Redirect("Categories/Index");
                 }
 
             }
@@ -91,7 +96,7 @@ namespace Project_ASP.NET.Controllers
             if (res.Succeeded)
             {
                 await signInManager.SignInAsync(user, isPersistent: false);
-                return Redirect("/");
+                return Redirect("Categories/Index");
             }
            
 
