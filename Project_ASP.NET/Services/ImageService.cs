@@ -56,6 +56,12 @@ namespace Project_ASP.NET.Services
             return imageName;
         }
 
+        public async Task<string> SaveImageFromUrlAsync(string imageUrl)
+        {
+            using var httpClient = new HttpClient();
+            var ImageBytes = await httpClient.GetByteArrayAsync(imageUrl);
+            return await SaveImageAsync(ImageBytes);
+        }
 
         private async Task SaveImageAsync(byte[] bytes, string name, int size)
         {

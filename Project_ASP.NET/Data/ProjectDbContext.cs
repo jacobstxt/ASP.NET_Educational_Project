@@ -9,6 +9,8 @@ namespace Project_ASP.NET.Data
     {
         public ProjectDbContext(DbContextOptions<ProjectDbContext> opt) : base(opt) { }
         public DbSet<CategoryEntity> Categories { get; set; }
+        public DbSet<ProductEntity> Products { get; set; }
+        public DbSet<ProductImageEntity> ProductImages { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

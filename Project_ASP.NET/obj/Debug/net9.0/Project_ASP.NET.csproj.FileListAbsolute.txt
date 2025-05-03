@@ -463,3 +463,4 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\compre
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\compressed\cimno9rpko-38fibpu2fp.gz
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\compressed\85w29z1wcq-cm726yxbtz.gz
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Debug\net9.0\compressed\a1wd0xdie7-xuuvrkwi0i.gz
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\bin\Debug\net9.0\JsonData\Products.json
