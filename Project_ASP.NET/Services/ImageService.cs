@@ -2,6 +2,8 @@
 using SixLabors.ImageSharp.Formats.Webp;
 using SixLabors.ImageSharp.Processing;
 using Project_ASP.NET.Interfaces;
+using static System.Net.Mime.MediaTypeNames;
+using Project_ASP.NET.Data.Entities;
 
 
 namespace Project_ASP.NET.Services
@@ -42,6 +44,36 @@ namespace Project_ASP.NET.Services
         }
 
 
+        public async Task<List<ProductImageEntity>> SaveImagesAsync(List<IFormFile> files)
+        {
+            var result = new List<ProductImageEntity>(); 
+            int priority = 0;
+           
+            foreach (var file in files)
+            {
+                using (var ms = new MemoryStream())
+                {
+               
+                    await file.CopyToAsync(ms);
+                    var bytes = ms.ToArray();
+
+                    var imageName = await SaveImageAsync(bytes);
+
+                    var productImage = new ProductImageEntity
+                    {
+                        FileName = imageName, // Присвоєння імені зображення
+                        Priority = priority++  // Якщо треба задати пріоритет (можна зробити динамічним)
+                    };
+
+
+                    result.Add(productImage); 
+                }
+            }
+
+            return result;
+        }
+
+
         public async Task<string> SaveImageAsync(byte[] bytes)
         {
             string imageName = $"{Path.GetRandomFileName()}.webp";
@@ -56,26 +88,33 @@ namespace Project_ASP.NET.Services
             return imageName;
         }
 
-        public async Task<string> SaveImageFromUrlAsync(string imageUrl)
-        {
-            using var httpClient = new HttpClient();
-            var ImageBytes = await httpClient.GetByteArrayAsync(imageUrl);
-            return await SaveImageAsync(ImageBytes);
-        }
 
         private async Task SaveImageAsync(byte[] bytes, string name, int size)
-        {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), configuration["ImagesDir"]!, $"{size}_{name}");
-            using var image = Image.Load(bytes);
-            image.Mutate(async imgContext =>
             {
-                imgContext.Resize(new ResizeOptions
+                var path = Path.Combine(Directory.GetCurrentDirectory(), configuration["ImagesDir"]!, $"{size}_{name}");
+                using var image = SixLabors.ImageSharp.Image.Load(bytes);
+                image.Mutate(async imgContext =>
                 {
-                    Size = new Size(size, size),
-                    Mode = ResizeMode.Max
+                    imgContext.Resize(new ResizeOptions
+                    {
+                        Size = new Size(size, size),
+                        Mode = ResizeMode.Max
+                    });
+                    await image.SaveAsync(path, new WebpEncoder());
                 });
-                await image.SaveAsync(path, new WebpEncoder());
-            });
-        }
+            }
+
+
+        
+
+
+            public async Task<string> SaveImageFromUrlAsync(string imageUrl)
+                {
+                    using var httpClient = new HttpClient();
+                    var ImageBytes = await httpClient.GetByteArrayAsync(imageUrl);
+                    return await SaveImageAsync(ImageBytes);
+                }
+
+
     }
 }

@@ -95,8 +95,8 @@ namespace Project_ASP.NET.Data
                                 var savedImageUrl = await imageService.SaveImageFromUrlAsync(imageUrl);
                                 productEntity.ProductImages.Add(new ProductImageEntity
                                 {
-                                    Name = savedImageUrl,
-                                    Priotity = priority++
+                                    FileName = savedImageUrl,
+                                    Priority = priority++
                                 });
                             }
 

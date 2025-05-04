@@ -1,21 +1,21 @@
-﻿@model List<UserItemViewModel>
+﻿@model List<ProductItemViewModel>
 
-@{
-    ViewData["Title"] = "Basic Tables - Tables";
-}
 
-@* ************** Content ************** *@
-<!-- Basic Bootstrap Table -->
+
 <div class="card">
-    <h5 class="card-header">Користувачі</h5>
-    <div class="table-responsive text-nowrap">
+    <div class="card-header d-flex justify-content-start align-items-center">
+    <h5 class="mb-0">Продукти</h5>
+    <a style="margin-left:70px" asp-action="Create" class="btn btn-primary" asp-controller="Products">Додати продукт</a>
+    </div>
+    <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr>
                     <th>№</th>
-                    <th>Icon</th>
                     <th>Name</th>
-                    <th>Email</th>
+                    <th style="width:300px; word-wrap: break-word;">Description</th>
+                    <th>CategoryName</th>
+                    <th>Images</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -24,10 +24,11 @@
                 @foreach(var item in Model)
                 {
                     <tr>
-                        <td>@item.Id</td>
-                        <td><img class="rounded-circle" style="width:5rem;height:5rem" src="/images/200_@(item.Image != null && item.Image.Any() ? item.Image : "user-icon-trendy-flat-style-600nw-418179856.webp")"/></td>
-                        <td>@item.LastName @item.FirstName</td>
-                        <td>@item.Email</td>
+                        <td>@item.Id</td>                   
+                        <td>@item.Name</td>
+                        <td style="font-weight:bold">@item.Description</td>
+                        <td>@item.CategoryName</td>
+                        <td><img  style="height:5rem;width:7rem;" src="/images/200_@item.Images[0]"/></td>
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="ri-more-2-line"></i></button>

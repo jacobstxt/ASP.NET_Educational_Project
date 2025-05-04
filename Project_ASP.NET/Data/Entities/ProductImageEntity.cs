@@ -9,8 +9,8 @@ namespace Project_ASP.NET.Data.Entities
         [Key]
         public int Id { get; set; }
         [Required, StringLength(255)]
-        public string Name { get; set; }
-        public int Priotity { get; set; }
+        public string FileName { get; set; }
+        public int Priority { get; set; }
         [ForeignKey("Product")]
         public int ProductId { get; set; }
         public ProductEntity? Product { get; set; }

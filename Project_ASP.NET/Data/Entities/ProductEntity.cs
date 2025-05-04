@@ -12,6 +12,7 @@ namespace Project_ASP.NET.Data.Entities
         public string Name { get; set; }
         [Required, StringLength(4000)]
         public string Description { get; set; }
+        public int Priority { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
