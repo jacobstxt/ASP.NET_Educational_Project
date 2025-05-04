@@ -74,6 +74,12 @@
             },
             menubar: 'favs file edit view insert format tools table help',
         });
+
+            document.querySelector('form').addEventListener('submit', function (e) {         
+            const editor = tinymce.get('Description');       
+            const plainText = editor.getContent({ format: 'text' });       
+            document.getElementById('Description').value = plainText;
+        });
     </script>
 
 
