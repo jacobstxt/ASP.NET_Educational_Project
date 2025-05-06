@@ -2,6 +2,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubT
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\appsettings.json
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\JsonData\Categories.json
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\JsonData\Products.json
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.runtimeconfig.json
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.pdb

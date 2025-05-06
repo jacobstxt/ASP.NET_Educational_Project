@@ -4,14 +4,14 @@
     <form asp-action="Create" enctype="multipart/form-data" class="p-4 shadow rounded bg-primary-subtle" style="max-width: 750px;margin:auto">
         <h4 class="mb-4 text-center">Створення продукту</h4>
 
-        <!-- Назва категорії -->
+
         <div class="mb-3">
             <label asp-for="Name" class="form-label fw-semibold text-dark">Назва продукту</label>
             <input asp-for="Name" type="text" class="form-control" placeholder="Введіть назву категорії" required>
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
 
-        <!-- Опис -->
+
         <div class="mb-3">
             <label asp-for="Description" class="form-label fw-semibold text-dark">Опис</label>
             <textarea asp-for="Description" id="Description" class="form-control" rows="4" placeholder="Введіть опис категорії"></textarea>
@@ -19,16 +19,11 @@
         </div>
 
 
-        <div class="row">
-
+    <div class="row">
             <div class="col mb-3">
                 <label asp-for="CategoryId" class="form-label fw-semibold text-dark">Категорія</label>
-                <select asp-for="CategoryId" class="form-select">
-                    <option value="0">Select category</option>
-                    @foreach (var category in ViewBag.Categories as SelectList)
-                    {
-                        <option value="@category.Value">@category.Text</option>
-                    }
+                <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select">
+                    <option value="0">Select category</option>                 
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
@@ -38,8 +33,8 @@
             <input asp-for="Priority" type="number" class="form-control" min="1" max="10" placeholder="Введіть пріоритет продукту" required>
             <span asp-validation-for="Priority" class="text-danger"></span>
         </div>
+    </div>
 
-        </div>
         <div class="mb-3">
             <label asp-for="Images" class="form-label fw-semibold text-dark">Оберіть фото</label>
             <input asp-for="Images" type="file" class="form-control" accept="image/*" multiple onchange="previewImages(event)">

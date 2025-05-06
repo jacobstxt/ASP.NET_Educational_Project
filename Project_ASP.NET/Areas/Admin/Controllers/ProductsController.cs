@@ -27,10 +27,7 @@ namespace Project_ASP.NET.Areas.Admin.Controllers
         {
             var categories = await context.Categories.ToListAsync();
 
-            var model = new ProductCreateViewModel
-            {
-                CategoryId = categories.Count
-            };
+            var model = new ProductCreateViewModel{ };
 
             ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(model);
@@ -58,7 +55,7 @@ namespace Project_ASP.NET.Areas.Admin.Controllers
                     entity.ProductImages = await imageService.SaveImagesAsync(model.Images);
                 }
 
-                // Додавання в базу
+
                 await context.Products.AddAsync(entity);
                 await context.SaveChangesAsync();
 
