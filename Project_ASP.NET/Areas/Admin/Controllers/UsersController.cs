@@ -18,5 +18,26 @@ namespace Project_ASP.NET.Areas.Admin.Controllers
 
             return View(model);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var user = await userManager.FindByIdAsync(id.ToString());
+            if (user == null) return NotFound();
+
+            var model = new UserEditViewModel
+            {
+                Id = id,
+                FirstName = user.Name,
+                LastName = user.Surname,
+                Email = user.Email,
+                Image = user.AvatarUrl,
+                ConfirmPassword = user.PasswordHash,
+            };
+
+            return View(model);
+        }
+
+
     }
 }
