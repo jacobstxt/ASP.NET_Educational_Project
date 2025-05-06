@@ -30,12 +30,24 @@
                         <td>@item.CategoryName</td>
                         <td>
                             <div style="display: flex; flex-wrap:wrap;gap:8px;">
-                            @foreach(var img in item.Images)
-                            {
-                                <img  style="height:5rem;width:7rem;" src="/images/200_@img"/>
-                            }   
+                                    <div id="carousel-@item.Id" class="carousel slide" data-bs-ride="false" style="width: 8rem;">
+                                        <div class="carousel-inner">
+                                            @for (int i = 0; i < item.Images.Count; i++)
+                                            {
+                                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                                    <img src="/images/200_@item.Images[i]" class="d-block w-100" style="height:5rem; object-fit: cover;" />
+                                                </div>
+                                            }
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-@item.Id" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-@item.Id" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
                             </div>
-                            </td>
+                        </td>
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="ri-more-2-line"></i></button>
