@@ -16,6 +16,7 @@
                     <th>Icon</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Role</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -28,6 +29,7 @@
                         <td><img class="rounded-circle" style="width:5rem;height:5rem" src="/images/200_@(item.Image != null && item.Image.Any() ? item.Image : "user-icon-trendy-flat-style-600nw-418179856.webp")"/></td>
                         <td>@item.LastName @item.FirstName</td>
                         <td>@item.Email</td>
+                        <td>@item.Role</td>
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="ri-more-2-line"></i></button>

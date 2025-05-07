@@ -1,7 +1,7 @@
 ﻿@model ProductCreateViewModel
 
 <div  class="container">
-    <form asp-action="Create" enctype="multipart/form-data" class="p-4 shadow rounded bg-white" style="max-width: 750px;margin:auto">
+    <form asp-action="Create" enctype="multipart/form-data" class="p-4 shadow rounded bg-white" style="max-width: 1150px;margin:auto">
         <h4 class="mb-4 text-center">Створення продукту</h4>
 
 
@@ -68,12 +68,6 @@
                 favs: { title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons' }
             },
             menubar: 'favs file edit view insert format tools table help',
-        });
-
-            document.querySelector('form').addEventListener('submit', function (e) {         
-            const editor = tinymce.get('Description');       
-            const plainText = editor.getContent({ format: 'text' });       
-            document.getElementById('Description').value = plainText;
         });
     </script>
 

@@ -9,12 +9,20 @@ using Project_ASP.NET.Data.Entities.Identity;
 namespace Project_ASP.NET.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class UsersController(UserManager<UserEntity> userManager,IMapper mapper):Controller
+    public class UsersController(UserManager<UserEntity> userManager,IMapper mapper) :Controller
     {
         public  async Task<IActionResult> Index()
         {
             var model = await userManager.Users
                 .ProjectTo<UserItemViewModel>(mapper.ConfigurationProvider).ToListAsync();
+
+
+            foreach (var item in model)
+            {
+                var user = await userManager.FindByIdAsync(item.Id);
+                var roles = await userManager.GetRolesAsync(user);
+                item.Role =  roles.FirstOrDefault(); 
+            }
 
             return View(model);
         }
@@ -25,14 +33,15 @@ namespace Project_ASP.NET.Areas.Admin.Controllers
             var user = await userManager.FindByIdAsync(id.ToString());
             if (user == null) return NotFound();
 
+
+            var roles = await userManager.GetRolesAsync(user);
             var model = new UserEditViewModel
             {
                 Id = id,
                 FirstName = user.Name,
                 LastName = user.Surname,
                 Email = user.Email,
-                Image = user.AvatarUrl,
-                ConfirmPassword = user.PasswordHash,
+                Image = user.AvatarUrl
             };
 
             return View(model);
