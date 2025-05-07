@@ -18,7 +18,9 @@ namespace Project_ASP.NET.Areas.Admin.Models.Users
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Паролі не співпадають")]
         public string? ConfirmPassword { get; set; }
-        [Required]
-        public string Image { get; set; } = string.Empty;
+        [DataType(DataType.Upload)]
+        public IFormFile? Avatar { get; set; }
+
+        public string? Image { get; internal set; }
     }
 }

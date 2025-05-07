@@ -10,15 +10,18 @@ namespace Project_ASP.NET.ViewComponents
         IMapper mapper) : 
         ViewComponent
     {
-       public IViewComponentResult Invoke()
+       public async Task<IViewComponentResult> InvokeAsync()
         {
             var userName = User.Identity?.Name;
             var model = new UserLinkViewModel();
-            if(userName != null)
+
+            if (!string.IsNullOrEmpty(userName))
             {
-                var user =  userManager.FindByEmailAsync(userName).Result;
-                model = mapper.Map<UserLinkViewModel>(user)
-                    ;
+                var user = await userManager.FindByEmailAsync(userName);
+                if (user != null)
+                {
+                    model = mapper.Map<UserLinkViewModel>(user);
+                }
             }
 
             return View(model);

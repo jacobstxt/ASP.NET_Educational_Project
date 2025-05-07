@@ -7,11 +7,11 @@
 
         <div class="row mb-3">
             <div class="col-md-2">
-                <img src="/images/200_@Model.Image" class="img-fluid rounded shadow-sm" id="avatarPreview" />
+                <img src="/images/200_@Model.Image"  class="img-fluid rounded shadow-sm" id="avatarPreview" />
             </div>
             <div class="col-md-8">
-                <label asp-for="Image" class="form-label fw-semibold text-dark">Зображення</label>
-                <input asp-for="Image" type="file" class="form-control" accept="image/*">
+                <label asp-for="Avatar" class="form-label fw-semibold text-dark">Зображення</label>
+                <input asp-for="Avatar" type="file" class="form-control" accept="image/*">
             </div>
         </div>
 
@@ -46,14 +46,14 @@
 
             <div class="col mb-3">
                 <label asp-for="Password" class="form-label fw-semibold text-dark">Пароль</label>
-                <input asp-for="Password" type="text" class="form-control">
+                <input asp-for="Password" type="password"  class="form-control">
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
 
             <div class="col mb-3">
                 <label asp-for="ConfirmPassword" class="form-label fw-semibold text-dark">Підтвердження паролю</label>
-                <input asp-for="ConfirmPassword" type="text" class="form-control">
+                <input asp-for="ConfirmPassword" type="password" class="form-control">
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
 
@@ -93,7 +93,7 @@
 
     <script>
 
-        const avatarInput = document.getElementById("Image");
+        const avatarInput = document.getElementById("Avatar");
         const modalElement = document.getElementById("exampleModal");
         const viewAvatar = document.getElementById("avatarPreview");
         const saveChangesBtn = document.getElementById("saveChangesBtn");
