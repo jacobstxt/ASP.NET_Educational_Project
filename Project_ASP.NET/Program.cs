@@ -33,6 +33,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<IPasswordHasher<UserEntity>, PasswordHasher<UserEntity>>();
+builder.Services.AddScoped<ISMTPService, SMTPService>();
 
 // Add services to the container.
 //У нас будуть View - це такі сторінки, де можна писати на C# Index.cshtml
