@@ -186,12 +186,12 @@ namespace Project_ASP.NET.Data
             //{
             //    var host = context.Request.Host.Host;
 
-            //    MessageModel msgEmail = new MessageModel
-            //    {
-            //        Body = $"Додаток успішно запущено {DateTime.Now}",
-            //        Subject = $"Запуск сайту {host}",
-            //        To = "max.1982.baran@gmail.com"
-            //    };
+            ////    MessageModel msgEmail = new MessageModel
+            ////    {
+            ////        Body = $"Додаток успішно запущено {DateTime.Now}",
+            ////        Subject = $"Запуск сайту {host}",
+            ////        To = "max.1982.baran@gmail.com"
+            ////    };
 
             //    await smtpService.SendEmail(msgEmail);
             //    Console.WriteLine($"----------------------{host}---------------");

@@ -7,7 +7,7 @@ namespace Project_ASP.NET.Services
 {
     public class SMTPService : ISMTPService
     {
-        public async Task<bool> SendEmail(MessageModel message)
+        public async Task<bool> SendEmailAsync(MessageModel message)
         {
             //EmailConfiguration config = new EmailConfiguration();
             //string pathFile = @"D:\ss.webp";
@@ -17,9 +17,11 @@ namespace Project_ASP.NET.Services
             //    FileName = "Привіт друже",
             //    Content = new MimeContent(File.OpenRead(pathFile))
             //};
-            var body = new TextPart("plain")
+            //var body = new TextPart("plain")
+            var body = new TextPart("html")
             {
                 Text = message.Body
+
             };
             var multipart = new Multipart("mixed");
             multipart.Add(body);

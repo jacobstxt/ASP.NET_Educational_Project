@@ -5,6 +5,6 @@ namespace Project_ASP.NET.Interfaces
 {
     public interface ISMTPService
     {
-        Task<bool> SendEmail(MessageModel message);
+        Task<bool> SendEmailAsync(MessageModel message);
     }
 }

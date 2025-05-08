@@ -4,6 +4,7 @@ using Project_ASP.NET.Areas.Admin.Models;
 
 namespace Project_ASP.NET.Areas.Admin.Controllers;
 
+[Area("Admin")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
