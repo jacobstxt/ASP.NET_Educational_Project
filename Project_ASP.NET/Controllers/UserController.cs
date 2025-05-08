@@ -99,7 +99,7 @@ namespace Project_ASP.NET.Controllers
             if (res.Succeeded)
             {
                 await signInManager.SignInAsync(user, isPersistent: false);
-                return Redirect("/");
+                return RedirectToAction(nameof(Login));
             }
            
 
@@ -179,19 +179,28 @@ namespace Project_ASP.NET.Controllers
                 return NotFound();
             }
 
-            var model = new ResetPasswordViewModel
-            {
-                Email = email,
-                Token = token
-            };
-
-            return View(model);
+            return View();
         }
 
         [HttpPost]
-        public IActionResult ResetPassword(ResetPasswordViewModel model)
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
         {
-            return View();
+            var user = await userManager.FindByEmailAsync(model.Email);
+
+            if (model.Password != model.ConfirmPassword)
+            {
+                ModelState.AddModelError(string.Empty, "Паролі не співпадають.");
+                return View(model);
+            }
+
+            var result = await userManager.ResetPasswordAsync(user, model.Token, model.Password);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Login", "User");
+            }
+
+            return View(model);
         }
     }
 }
