@@ -110,5 +110,13 @@ namespace Project_ASP.NET.Controllers
           
         }
 
+        [HttpGet]
+        public  IActionResult ForgotPassword()
+        {        
+            return View();
+        }
+
+
+
     }
 }
