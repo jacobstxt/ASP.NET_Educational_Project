@@ -7,6 +7,7 @@ using Project_ASP.NET.Data.Entities;
 using Project_ASP.NET.Data.Entities.Identity;
 using Project_ASP.NET.Interfaces;
 using Project_ASP.NET.Models.Seeder;
+using Project_ASP.NET.SMTP;
 
 namespace Project_ASP.NET.Data
 {
@@ -21,6 +22,7 @@ namespace Project_ASP.NET.Data
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<UserEntity>>();
 
             var mapper = scope.ServiceProvider.GetRequiredService<IMapper>();
+            var smtpService = scope.ServiceProvider.GetRequiredService<ISMTPService>();
 
             context.Database.Migrate();
 
@@ -178,6 +180,26 @@ namespace Project_ASP.NET.Data
                     }
                 }
             }
+
+
+            //webApplication.Use(async (context, next) =>
+            //{
+            //    var host = context.Request.Host.Host;
+
+            //    MessageModel msgEmail = new MessageModel
+            //    {
+            //        Body = $"Додаток успішно запущено {DateTime.Now}",
+            //        Subject = $"Запуск сайту {host}",
+            //        To = "max.1982.baran@gmail.com"
+            //    };
+
+            //    await smtpService.SendEmail(msgEmail);
+            //    Console.WriteLine($"----------------------{host}---------------");
+            //    await next.Invoke();
+            //});
+
+        
+
 
         }
 
