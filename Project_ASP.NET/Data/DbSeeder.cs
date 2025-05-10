@@ -58,11 +58,10 @@ namespace Project_ASP.NET.Data
                 }
             }
 
-
             if (!context.Products.Any())
             {
                 var imageService = scope.ServiceProvider.GetRequiredService<IImageService>();
-                var jsonFile = Path.Combine(Directory.GetCurrentDirectory(), "JsonData", "Products.json");
+                var jsonFile = Path.Combine(Directory.GetCurrentDirectory(), "Helpers", "JsonData", "Products.json");
 
                 if (File.Exists(jsonFile))
                 {
@@ -92,14 +91,23 @@ namespace Project_ASP.NET.Data
                             };
 
                             int priority = 0;
-                            foreach (var imageUrl in product.Images)
+                            try
                             {
-                                var savedImageUrl = await imageService.SaveImageFromUrlAsync(imageUrl);
-                                productEntity.ProductImages.Add(new ProductImageEntity
+                                foreach (var imageUrl in product.Images)
                                 {
-                                    FileName = savedImageUrl,
-                                    Priority = priority++
-                                });
+
+                                    var savedImageUrl = await imageService.SaveImageFromUrlAsync(imageUrl);
+                                    productEntity.ProductImages.Add(new ProductImageEntity
+                                    {
+                                        FileName = savedImageUrl,
+                                        Priority = priority++
+                                    });
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("-----Error Add {0}------", ex.Message);
+                                continue;
                             }
 
                             await context.Products.AddAsync(productEntity);
@@ -180,26 +188,6 @@ namespace Project_ASP.NET.Data
                     }
                 }
             }
-
-
-            //webApplication.Use(async (context, next) =>
-            //{
-            //    var host = context.Request.Host.Host;
-
-            ////    MessageModel msgEmail = new MessageModel
-            ////    {
-            ////        Body = $"Додаток успішно запущено {DateTime.Now}",
-            ////        Subject = $"Запуск сайту {host}",
-            ////        To = "max.1982.baran@gmail.com"
-            ////    };
-
-            //    await smtpService.SendEmail(msgEmail);
-            //    Console.WriteLine($"----------------------{host}---------------");
-            //    await next.Invoke();
-            //});
-
-        
-
 
         }
 
