@@ -55,7 +55,7 @@
     <script>
         tinymce.init({
             selector: '#Description',
-            height: 300,
+            height: 350,
             plugins: [
                 'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
                 'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime',
@@ -68,6 +68,21 @@
                 favs: { title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons' }
             },
             menubar: 'favs file edit view insert format tools table help',
+
+            //додавання зображень на сервер 
+            images_upload_url : '/images',
+            images_upload_handler: function(blobInfo,success,failure){
+                 const formData = new FormData();
+            formData.append('file', blobInfo.blob(), blobInfo.filename());
+
+            fetch('product/images', {
+                method: 'POST',
+                body: formData
+            })
+            .then(res => res.json())
+            .then(data => success(data.location)) // вставляє URL у редактор
+            .catch(() => failure('Upload failed'));
+            }
         });
     </script>
 

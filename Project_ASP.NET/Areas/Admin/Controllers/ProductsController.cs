@@ -69,5 +69,19 @@ namespace Project_ASP.NET.Areas.Admin.Controllers
         }
 
 
+        [HttpPost]
+        [Route("product/images")]
+        public async Task<IActionResult> UploadImage(IFormFile file, IImageService imageService)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("No file uploaded");
+
+            var fileName = await imageService.SaveImageAsync(file);
+            var url = $"{Request.Scheme}://{Request.Host}/images/800_{fileName}"; 
+
+            return Json(new { location = url }); // location — це те, що очікує TinyMCE
+        }
+
+
     }
 }
