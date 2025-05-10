@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Project_ASP.NET.Data.Entities;
 using Project_ASP.NET.Models.Category;
+using Project_ASP.NET.Models.Helpers;
 
 namespace Project_ASP.NET.Mapper
 {
@@ -18,6 +19,8 @@ namespace Project_ASP.NET.Mapper
             .ForMember(x => x.ViewImage, opt => opt.MapFrom(x => string.IsNullOrEmpty(x.ImageUrl) ? "/Picture/default.png" : $"/images/400_{x.ImageUrl}"))
             .ForMember(x => x.ImageFile, opt => opt.Ignore())
             .ReverseMap();
+
+            CreateMap<CategoryEntity, SelectItemViewModel>();
 
         }
     }

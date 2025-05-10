@@ -1,0 +1,39 @@
+﻿@model ProductSearchViewModel
+
+
+@{
+    var categories = Model.Categories.Select(x => new SelectListItem
+    {
+        Text = x.Name,
+        Value = x.Id.ToString()
+    });
+}
+
+<div class="row align-items-end" style="margin-bottom:20px;margin-top:20px">
+    <form asp-action="Index" method="get"  class="shadow rounded bg-light">
+
+    <div class="col-md-6 col-lg-4">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label fw-semibold text-dark">Назва</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Введіть назву..." required>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="mb-3">
+            <label asp-for="CategoryId" class="form-label fw-semibold text-dark">Категорія</label>
+            @Html.DropDownListFor(x=> x.CategoryId,categories,new {@class="form-select"})
+        </div>
+    </div>   
+    <div class="row">
+        <div class="col mb-3">
+            <button type="submit" class="btn btn-info w-100">
+                <i class="bi bi-search"></i> Пошук
+            </button>          
+        </div>
+         <div class="col mb-3">
+           <a asp-action="Index" class="btn btn-info w-100">Очистити</a>
+        </div>
+    </div>
+    </form>
+</div>

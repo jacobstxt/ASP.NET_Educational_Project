@@ -1,0 +1,19 @@
+﻿@model IEnumerable<ProductItemViewModel>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        string image = item.Images[0];
+
+        <div class="col">
+            <div class="card h-100 shadow-sm position-relative">
+                <img src="/images/400_@image" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name (<i>@item.CategoryName</i>)</h5>
+                    <p class="card-text">@item.Description</p>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>

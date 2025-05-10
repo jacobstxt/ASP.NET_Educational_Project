@@ -1,0 +1,14 @@
+﻿@model ProductListViewModel
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Фільми</h2>
+
+    <div class="alert alert-primary" role="alert">
+        Кількіcть елементів : <strong>@Model.Count</strong>
+    </div>
+
+    @await Html.PartialAsync("_ProductSearchItems", Model.Search)
+
+    @await Html.PartialAsync("_ListProductItems",Model.Products)
+</div>
