@@ -8,6 +8,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubT
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Project_ASP.NET.pdb
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\AutoMapper.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Humanizer.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\MailKit.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNet.Identity.Core.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -51,7 +52,9 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubT
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\MimeKit.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Mono.TextTemplating.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\NETCore.MailKit.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Npgsql.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\Npgsql.EntityFrameworkCore.PostgreSQL.dll
@@ -64,6 +67,7 @@ C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubT
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\NuGet.ProjectModel.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\NuGet.Protocol.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\NuGet.Versioning.dll
+C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\BouncyCastle.Crypto.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\SixLabors.ImageSharp.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\System.CodeDom.dll
 C:\IT\Web\ASP.NET\MyCode\Project_ASP.NET\Project_ASP.NET\obj\Release\net9.0\PubTmp\Out\System.Composition.AttributedModel.dll
