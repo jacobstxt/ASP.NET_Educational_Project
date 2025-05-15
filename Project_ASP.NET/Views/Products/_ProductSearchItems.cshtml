@@ -10,29 +10,44 @@
 }
 
 
-<form asp-action="Index" method="get" class="shadow rounded bg-light" style="margin-bottom:20px;margin-top:20px">
-
-    <div class="col-md-6 col-lg-4">
+<form asp-action="Index" method="get" class="shadow rounded bg-light" style="margin-bottom:10px;margin-top:20px;height:220px">
+    <div style="margin:auto">
+     
+<div class="row">
+    <div class="col col-md-6 col-lg-4" style="margin-left:30px">
+    <div>
         <div class="mb-3">
             <label asp-for="Name" class="form-label fw-semibold text-dark">Назва</label>
             <input asp-for="Name" type="text" class="form-control" placeholder="Введіть назву...">
         </div>
     </div>
 
-    <div class="col-md-6 col-lg-4">
+    <div>
         <div class="mb-3">
             <label asp-for="CategoryId" class="form-label fw-semibold text-dark">Категорія</label>
             @Html.DropDownListFor(x=> x.CategoryId,categories,new {@class="form-select"})
         </div>
-    </div>   
-    <div class="row">
-        <div class="col mb-3">
-            <button type="submit" class="btn btn-info w-100">
-                <i class="bi bi-search"></i> Пошук
-            </button>          
+    </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="mb-3">
+           <label asp-for="CategoryId" class="form-label fw-semibold text-dark">Кількість відображуваних продуктів</label>
+            @Html.DropDownListFor(x => x.CategoryId, categories, new { @class = "form-select" })
         </div>
-         <div class="col mb-3">
-           <a asp-action="Index" class="btn btn-info w-100">Очистити</a>
+    </div>
+
         </div>
+
+    </div>
+
+
+    <div class="d-flex gap-3 mb-3" style="margin-left:30px;">
+        <button type="submit" class="btn btn-info" style="width:150px">
+            <i class="bi bi-search"></i> Пошук
+        </button>
+        <a asp-action="Index" style="width:150px" class=" btn btn-secondary">
+            Очистити
+        </a>
     </div>
     </form>

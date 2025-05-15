@@ -5,13 +5,13 @@
     <h2 class="text-center mb-4">Фільми</h2>
 
     <div class="alert alert-primary" role="alert">
-        Кількіcть елементів : <strong>@Model.Count</strong>
+        Кількіcть елементів : <strong>@Model.Page.TotalItems</strong>
     </div>
 
     @await Html.PartialAsync("_ProductSearchItems", Model.Search)
 
 
-    @if(Model.Count == 0)
+    @if (!Model.Page.Items.Any())
     {
         <div class="border rounded p-3 text-muted text-center bg-light">
             <i class="bi bi-search me-2"></i>
@@ -20,7 +20,27 @@
     }
     else
     {
-        @await Html.PartialAsync("_ListProductItems", Model.Products)
+        @await Html.PartialAsync("_ListProductItems", Model.Page.Items)
     }
+
+
+    <nav aria-label="Page navigation" style="margin-top:10px">
+        <ul class="pagination justify-content-center">
+
+            @for (int i = 1; i <= Model.Page.TotalPages; i++)
+            {
+                var activeClass = i == Model.Page.Page ? "active" : "";
+
+                <li class="page-item @activeClass">
+                    <a class="page-link" href="@Url.Action("Index", new {
+                    Name = Model.Search.Name,
+                    CategoryId = Model.Search.CategoryId,
+                    Page = i,
+                    PageSize = Model.Page.PageSize
+                })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
 
 </div>

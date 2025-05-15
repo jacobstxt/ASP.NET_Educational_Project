@@ -39,15 +39,36 @@ namespace Project_ASP.NET.Controllers
                 query = query.Where(p => p.CategoryId == searchModel.CategoryId);
             }
 
-            var model = new ProductListViewModel();
-            model.Count = query.Count();
+            int totalItems = await query.CountAsync();
 
-            //Відбір тих елементів , які відображаються на сторінці
-            model.Products = mapper.ProjectTo<ProductItemViewModel>(query).ToList();
-            model.Search = searchModel;
+            var items = await mapper.ProjectTo<ProductItemViewModel>(query
+                .Skip((searchModel.Page - 1) * searchModel.PageSize)
+                .Take(searchModel.PageSize))
+                .ToListAsync();
 
-           
+            //var model = new ProductListViewModel();
+            //model.Count = query.Count();
+
+            ////Відбір тих елементів , які відображаються на сторінці
+            //model.Products = mapper.ProjectTo<ProductItemViewModel>(query).ToList();
+            //model.Search = searchModel;
+
+            var model = new ProductListViewModel
+            {
+                Search = searchModel,
+                Page = new PaginationViewModel<ProductItemViewModel>
+                {
+                    Items = items,
+                    TotalItems = totalItems,
+                    Page = searchModel.Page,
+                    PageSize = searchModel.PageSize
+                }
+            };
+
+
             return View(model);
         }
+
+
     }
 }
