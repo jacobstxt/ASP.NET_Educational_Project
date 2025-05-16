@@ -11,7 +11,7 @@ namespace Project_ASP.NET.Controllers
     IMapper mapper) : Controller
     {
         [HttpGet]
-        public async Task<IActionResult> Index(ProductSearchViewModel searchModel) //Це будь-який web результат - View - сторінка, Файл, PDF, Excel
+        public async Task<IActionResult> Index(ProductSearchViewModel searchModel)
         {
             ViewBag.Title = "Продукти";
 
@@ -47,12 +47,6 @@ namespace Project_ASP.NET.Controllers
                 .Take(searchModel.PageSize))
                 .ToListAsync();
 
-            //var model = new ProductListViewModel();
-            //model.Count = query.Count();
-
-            ////Відбір тих елементів , які відображаються на сторінці
-            //model.Products = mapper.ProjectTo<ProductItemViewModel>(query).ToList();
-            //model.Search = searchModel;
 
             var model = new ProductListViewModel
             {
@@ -65,7 +59,6 @@ namespace Project_ASP.NET.Controllers
                     PageSize = searchModel.PageSize    
                 }
             };
-
 
             return View(model);
         }
