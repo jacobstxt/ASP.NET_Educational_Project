@@ -33,7 +33,12 @@
     <div class="col-md-6 col-lg-4">
         <div class="mb-3">
            <label asp-for="CategoryId" class="form-label fw-semibold text-dark">Кількість відображуваних продуктів</label>
-            @Html.DropDownListFor(x => x.CategoryId, categories, new { @class = "form-select" })
+               <select name="PageSize" asp-for="PageSize" class="form-select">
+                    @foreach (var size in Model.PageSizeOptions)
+                    {
+                        <option value="@size">@size</option>
+                    }
+              </select>
         </div>
     </div>
 

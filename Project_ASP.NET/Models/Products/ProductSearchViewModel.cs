@@ -16,7 +16,10 @@ namespace Project_ASP.NET.Models.Products
         public List<SelectItemViewModel> Categories { get; set; } = new();
 
         public int Page { get; set; } = 1;
+
         public int PageSize { get; set; } = 3;
+
+        public List<int> PageSizeOptions { get; set; } = new() { 5, 10, 20, 50 };
 
     }
 }

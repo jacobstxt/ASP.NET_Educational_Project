@@ -15,6 +15,7 @@ namespace Project_ASP.NET.Controllers
         {
             ViewBag.Title = "Продукти";
 
+            searchModel.PageSizeOptions = new List<int> { 5, 10, 20, 50 };
 
             searchModel.Categories = await mapper.ProjectTo<SelectItemViewModel>(context.Categories)
                 .ToListAsync();
@@ -61,7 +62,7 @@ namespace Project_ASP.NET.Controllers
                     Items = items,
                     TotalItems = totalItems,
                     Page = searchModel.Page,
-                    PageSize = searchModel.PageSize
+                    PageSize = searchModel.PageSize    
                 }
             };
 
